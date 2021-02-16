@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.31.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.6.88"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.0.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,43 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
-        "subcategories": [
+        "author": "Henrik Nyholm",
+        "subcategories": ["MCC",
+			[
+               "Peripherals", "OPAMP"
+            ],
+            [
+               "Peripherals", "DAC"
+            ],
+            [
+                "Peripherals", "ADC"
+            ],
+            [
+                "Peripherals", "VREF"
+            ],            			
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]       
         ],
         "peripherals": [
+            "OPAMP", "DAC", "ADC", "VREF"
         ],
         "keywords": [
+			"Analog Signal Conditioning",
+			"Operational Amplifier",
+			"Op Amp",
+			"Resistor Ladder",
+
+            "Non-Inverting Amplifier",
+            "PGA",
+			"Gain",
+			"Offset",
+			"Calibration",
+			"opamp-gain-and-offset-calibration"
         ],
 		"additionalData": {
 			"longDescription": {

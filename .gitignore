@@ -4,6 +4,7 @@
 !/**/nbproject/*.xml
 /**/[Ff]ree/production/*
 /**/[Pp]ro/production/*
+/**/dist/*
 /**/.generated_files/*
 
 # Uncomment these to include hex/elf files
