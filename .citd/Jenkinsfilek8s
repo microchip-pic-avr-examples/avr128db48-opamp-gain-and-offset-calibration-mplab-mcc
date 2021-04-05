@@ -1,7 +1,8 @@
+// Jenkinsfile v2.0.0
 pipeline {
     agent {
         kubernetes {
-            label 'avr128db48-opamp-gain-and-offset-calibration-mplab-mcc'
+
 			defaultContainer 'xc8-mplabx'
             yamlFile '.citd/cloudprovider.yml'
         }
