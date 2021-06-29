@@ -4,7 +4,7 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>avr128db48-opamp-gain-and-offset-calibration-mplab-mcc</name>
-            <creation-uuid>575ca009-fc9c-4aef-bba3-b2258cdaaaa1</creation-uuid>
+            <creation-uuid>22656536-6c35-4b0d-8b77-27e14e93d142</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>

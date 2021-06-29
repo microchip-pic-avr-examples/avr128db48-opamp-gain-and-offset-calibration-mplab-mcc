@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "displayName": "Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "shortDescription": "This MCC based MPLAB X example shows how to calibrate the gain and offset of the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No external components are required.",
+        "shortDescription": "This MPLAB X example uses MCC Melody to show how to calibrate gain and offset on the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No additional components needed.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.45.0"
+            "semverRange": ">=5.50.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.31.0"
+				"semverRange": "^2.32.0"
 			}
 		],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": "^1.6.88"
+            "semverRange": "^1.8.112"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=4.0.2"
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,7 +36,7 @@
                 "versionRange": "*"
             }
         },
-        "author": "Henrik Nyholm",
+        "author": "Erling Holten Wiken",
         "subcategories": ["MCC",
 			[
                "Peripherals", "OPAMP"
@@ -49,10 +49,7 @@
             ],
             [
                 "Peripherals", "VREF"
-            ],            			
-            [
-               "Development Kit", "AVR128DB48 Curiosity Nano"
-            ]       
+            ]  
         ],
         "peripherals": [
             "OPAMP", "DAC", "ADC", "VREF"
@@ -62,7 +59,7 @@
 			"Operational Amplifier",
 			"Op Amp",
 			"Resistor Ladder",
-
+			"Curiosity Nano",
             "Non-Inverting Amplifier",
             "PGA",
 			"Gain",
