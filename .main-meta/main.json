@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "displayName": "Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "shortDescription": "This MPLAB X example uses MCC Melody to show how to calibrate gain and offset on the OPAMP when configured as a Programmable Gain Amplifier (PGA). The internal DAC and ADC are used to perform the calibration procedure. No additional components needed.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.50.0"
+            "semverRange": ">=6.10.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.32.0"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.41.0"
+            }
+        ],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": "^1.8.112"
+            "semverRange": "^2.3.272"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=4.1.0"
+            "semverRange": ">=5.0.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,46 +37,54 @@
             }
         },
         "author": "Erling Holten Wiken",
-        "subcategories": ["MCC",
-			[
-               "Peripherals", "OPAMP"
+        "subcategories": [
+            "MCC",
+            [
+                "Peripherals",
+                "OPAMP"
             ],
             [
-               "Peripherals", "DAC"
+                "Peripherals",
+                "DAC"
             ],
             [
-                "Peripherals", "ADC"
+                "Peripherals",
+                "ADC"
             ],
             [
-                "Peripherals", "VREF"
-            ]  
+                "Peripherals",
+                "VREF"
+            ]
         ],
         "peripherals": [
-            "OPAMP", "DAC", "ADC", "VREF"
+            "OPAMP",
+            "DAC",
+            "ADC",
+            "VREF"
         ],
         "keywords": [
-			"Analog Signal Conditioning",
-			"Operational Amplifier",
-			"Op Amp",
-			"Resistor Ladder",
-			"Curiosity Nano",
+            "Analog Signal Conditioning",
+            "Operational Amplifier",
+            "Op Amp",
+            "Resistor Ladder",
+            "Curiosity Nano",
             "Non-Inverting Amplifier",
             "PGA",
-			"Gain",
-			"Offset",
-			"Calibration",
-			"opamp-gain-and-offset-calibration"
+            "Gain",
+            "Offset",
+            "Calibration",
+            "opamp-gain-and-offset-calibration"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
