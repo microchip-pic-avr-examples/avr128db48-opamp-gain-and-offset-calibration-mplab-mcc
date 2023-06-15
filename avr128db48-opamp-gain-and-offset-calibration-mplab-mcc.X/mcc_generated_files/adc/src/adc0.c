@@ -79,7 +79,6 @@ int8_t ADC0_Initialize(void)
     // ENABLE enabled; FREERUN disabled; RESSEL 12-bit mode; RUNSTBY disabled; CONVMODE disabled; LEFTADJ disabled; 
     ADC0.CTRLA = 0x1;
 
-
     return 0;
 }
 
