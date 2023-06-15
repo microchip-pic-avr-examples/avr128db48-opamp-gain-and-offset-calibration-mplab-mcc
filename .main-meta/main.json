@@ -2,7 +2,7 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-opamp-gain-and-offset-calibration-mplab-mcc",
         "version": "2.0.1",
         "displayName": "Gain and Offset Calibration of the Analog Signal Conditioning (OPAMP) Peripheral",
@@ -37,25 +37,6 @@
             }
         },
         "author": "Erling Holten Wiken",
-        "subcategories": [
-            "MCC",
-            [
-                "Peripherals",
-                "OPAMP"
-            ],
-            [
-                "Peripherals",
-                "DAC"
-            ],
-            [
-                "Peripherals",
-                "ADC"
-            ],
-            [
-                "Peripherals",
-                "VREF"
-            ]
-        ],
         "peripherals": [
             "OPAMP",
             "DAC",
@@ -63,17 +44,15 @@
             "VREF"
         ],
         "keywords": [
-            "Analog Signal Conditioning",
             "Operational Amplifier",
-            "Op Amp",
+            "OPAMP",
             "Resistor Ladder",
             "Curiosity Nano",
             "Non-Inverting Amplifier",
             "PGA",
             "Gain",
             "Offset",
-            "Calibration",
-            "opamp-gain-and-offset-calibration"
+            "Calibration"
         ],
         "additionalData": {
             "longDescription": {
